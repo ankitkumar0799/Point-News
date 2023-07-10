@@ -23,7 +23,7 @@ export default class Newsitem extends React.Component {
     <h5 className="card-title">{title}...</h5>
     <p className="card-text">{description}...</p>
 
-   <center> <a style={{hover:"fontSize=30px"}} target="_blank" href={newsUrl} className="btn btn-sm btn-dark">Read More</a></center>
+   <center> <a href={newsUrl} className="btn btn-sm btn-dark">Read More</a></center>
     <center> <div style={{fontSize: '10px'}} className="card-footer text-body-secondary">
    by {author} on {new Date (publishedAt).toGMTString()}
   </div></center>
